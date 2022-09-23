@@ -47,8 +47,19 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
+    text-align: center;
 }
 
+.section-login .right-section h1 {
+    color: #575757;
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+
+
+/* ----------Starts media queries ---------- */
 @media screen and (min-width: 768px) {
     .section-login {
         flex-direction: row-reverse;
@@ -57,11 +68,11 @@ main {
     }
 
     .section-login .left-section {
-        width: 50%;
+        width: 40%;
         height: auto;
     }
 
     .section-login .right-section {
-        width: 50%;
+        width: 60%;
     }
 }
