@@ -17,15 +17,19 @@
                 <p>Seja bem-vindo(a). Faça login para continuar.</p>
                 <form action="login.php" method="post">
                     <div class="field">
-                        <label for="ilogin">Email:</label>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu email..." autocomplete="email" required>
+                        <!--<label for="ilogin">Email:</label>-->
+                        <input type="email" name="login" id="ilogin" placeholder="Email" autocomplete="email" required>
                     </div>
                     <div class="field">
-                        <label for="ipassword">Senha:</label>
-                        <input type="password" name="password" id="ipassword" placeholder="Sua senha..." autocomplete="current-password" minlength="8"  maxlength="15" required>
+                        <!--<label for="ipassword">Senha:</label>-->
+                        <input type="password" name="password" id="ipassword" placeholder="Senha" autocomplete="current-password" minlength="8"  maxlength="15" required>
                     </div>
-                    <input type="submit" value="Entrar">
-                    <button>Esqueci a senha</button>
+                    <div class="check">
+                        <input type="checkbox" name="keep" id="ikeep">
+                        <label for="ikeep">Me manter conectado</label>
+                    </div>
+                    <input id="button" type="submit" value="Entrar">
+                    <a href="#">Esqueceu a senha?</a>
                 </form>
             </div>
         </section>
